@@ -126,18 +126,40 @@ var btn = document.getElementById("button");
 var txt = document.getElementById("text");
 var pdps = document.getElementById("podpiska")
 
+var massobj = [
+    {name:"0", surname:"0", age:0},
+    {name:"0", surname:"0", age:0},
+    {name:"0", surname:"0", age:0},
+    {name:"0", surname:"0", age:0},
+    {name:"0", surname:"0", age:0},
+    {name:"0", surname:"0", age:0},
+    {name:"0", surname:"0", age:0},
+    {name:"0", surname:"0", age:0},
+    {name:"0", surname:"0", age:0},
+    {name:"0", surname:"0", age:0}
+];
+var i=0;
 
 function clickk()
 {
     
     if(btn.style.color=="white")
     {
+       /*  if(massobj[massobj.length].name !=0)
+        {
+            ++massobj.length;
+            massobj[massobj.length].name = "0";
+            massobj[massobj.length].surname = "0";
+            massobj[massobj.length].age = 0;
+        } */
         btn.style.color="red";
         btn.style.backgroundColor="orange";
-        pdps.innerHTML="Оформлена подписка для пользователя "+prompt("Ведите ваше имя", "Ваше имя") +" "+
-        prompt("Ведите вашу фамилию", "Ваша фамилия") +", "+
-        prompt("Ведите ваш возраст", "Сколько вам лет?")+" лет!";
-
+        pdps.innerHTML="Оформлена подписка для пользователя "+(massobj[i].name=prompt("Ведите ваше имя", "Ваше имя")) +" "+
+        (massobj[i].surname=prompt("Ведите вашу фамилию", "Ваша фамилия")) +", "+
+        (massobj[i].age=Number(prompt("Ведите ваш возраст", "Сколько вам лет?")))+" лет!";
+        i++;
+        console.log(massobj);
+        
     }   
     else
     {
@@ -145,7 +167,6 @@ function clickk()
         btn.style.backgroundColor= "rgb(110, 105, 141)";
     }
 } 
-
 
 var x = 5;
 

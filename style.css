@@ -192,15 +192,15 @@ a{
     display: inline-flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 34%;
+    width: 66%;
     height: auto;
     position: relative;
-    margin-left: 34%;
+    margin-left: 17%;
 }
 .SUBCRIBE__BUTTON{
     margin-left: 18%;
     background-color: rgb(110, 105, 141);
-    width: 100%;
+    width: 50%;
     height: 55px;
     border-color:rgb(110, 105, 141);
     border-style: solid;
@@ -253,7 +253,7 @@ a{
     margin-left: 55px;
 }
 .enter{
-    width: 170%;
+    width: 50%;
     height: 50px;
     border-color: grey;
     border-style: solid;
@@ -346,20 +346,25 @@ a{
 
 @media screen and (max-width:1300px)
 {
-    .enter_button {
-        width: 44%;
-    }
+   
+    .Subscribe{
+
+}
+    
 }
 
 @media screen and (max-width:1010px)
 {
+    
     .enter_button {
-        width: 55%;
+        
     }
+    
     .header {
         font-size: 38px;
         margin-left: 38%;
     }
+    
     .text1 {
         margin-left: 36%;
     }
@@ -367,34 +372,39 @@ a{
     .text1__1 {
         font-size:18px;
     }
+    
     .text1__2 {
         font-size:18px;
     }
+    
     .text1__3 {
         font-size:18px;
     }
 
 }
 
-@media screen and (max-width:815px)
+@media screen and (max-width:850px)
 {
+    
     .enter_button {
         display: flex;
         flex-direction: column;
         height: 150px;
     }
+    
     .enter {
-        width:75%;
+        
     }
 
     .SUBCRIBE__BUTTON {
         margin-left: 0%;
-        width:75%;
     }
+    
 }
 
 @media screen and (max-width:720px)
 {
+    
     .enter_button {
         display: flex;
         flex-direction: column;
@@ -402,6 +412,7 @@ a{
         width: 95%;
         margin-left: 2.5%;
     }
+    
     .enter {
         width:100%;
     }
@@ -426,9 +437,11 @@ a{
     .cont1__1 {
         width: 100%;
     }
+    
     .cont1__2 {
         width: 100%;
     }
+    
     .cont1__3 {
         width: 100%;
     }
@@ -436,19 +449,91 @@ a{
     .img1:hover{
         width: 100%;
     }
+    
     .img2:hover{
         width: 100%;
     }
+    
     .img3:hover{
         width: 100%;
     }
+    
     .img4:hover{
         width: 100%;
     }
+    
     .img5:hover{
         width: 100%;
     }
+    
     .img6:hover{
         width: 100%;
     }
+    
+}
+
+@media screen and (max-width:610px)
+{
+    
+    .header {
+        font-size: 32px;
+        margin-left: 33%;
+    }
+    
+    .text1 {
+    margin-left: 27%;
+    }
+    
+}
+
+@media screen and (max-width:500px)
+{
+    
+    .header {
+        margin-left: 31%;
+    }
+    
+    .text1 {
+    margin-left: 25%;
+    }
+    
+}
+
+@media screen and (max-width:420px)
+{
+    
+    .header {
+        margin-left: 27%;
+    }
+    
+    .text1 {
+    margin-left: 19%;
+    }
+    
+}
+
+@media screen and (max-width:380px)
+{
+    
+    .header {
+        margin-left: 25%;
+    }
+    
+    .text1 {
+    margin-left: 15%;
+    }
+    
+}
+
+@media screen and (max-width:240px)
+{
+    
+    .header {
+        margin-left: 23%;
+    }
+    
+    .text1 {
+    margin-left: 10%;
+    }
+    
 }

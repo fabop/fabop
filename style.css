@@ -182,7 +182,7 @@ a{
     position: relative;
 }
 .Subscribe{
-    margin-top: 210px;
+    margin-top: 25px;
     font-size: 24px;
     margin-left: 40%;
     font-family: 'Lobster', cursive;
@@ -348,13 +348,17 @@ a{
 {
    
     .Subscribe{
-
+        margin-left: 38%;
 }
     
 }
 
 @media screen and (max-width:1010px)
 {
+    
+    .Subscribe{
+        margin-left: 38%;
+    }
     
     .enter_button {
         
@@ -393,11 +397,12 @@ a{
     }
     
     .enter {
-        
+        width:100%;
     }
 
     .SUBCRIBE__BUTTON {
         margin-left: 0%;
+        width:100%;
     }
     
 }
@@ -414,17 +419,22 @@ a{
     }
     
     .enter {
-        width:100%;
+        
     }
 
     .SUBCRIBE__BUTTON {
         margin-left: 0%;
-        width:100%;
+        
     }
 
     .Subscribe {
         margin-left: 32%;
-        margin-top: 35px;
+    }
+    
+    
+    .icons {
+        margin-left: 35%;
+        margin-top: 25px;
     }
 
     .cont1 {
@@ -489,6 +499,10 @@ a{
 @media screen and (max-width:500px)
 {
     
+    .Subscribe{
+        margin-left: 27%;
+    }
+    
     .header {
         margin-left: 31%;
     }
@@ -501,6 +515,10 @@ a{
 
 @media screen and (max-width:420px)
 {
+    
+    .Subscribe{
+        margin-left: 23%;
+    }
     
     .header {
         margin-left: 27%;
@@ -515,6 +533,10 @@ a{
 @media screen and (max-width:380px)
 {
     
+    .Subscribe{
+        margin-left: 17%;
+    }
+    
     .header {
         margin-left: 25%;
     }
@@ -527,6 +549,10 @@ a{
 
 @media screen and (max-width:240px)
 {
+    
+    .Subscribe{
+        margin-left: 17%;
+    }
     
     .header {
         margin-left: 23%;

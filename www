@@ -118,7 +118,7 @@ con.connect(function (err) {
 var nm = document.getElementById("nm");
 var age = document.getElementById("age");
 
-function addpos() {
+function addpos( name, age){
     var mysql = require('mysql');
 
     var con = mysql.createConnection({
@@ -135,9 +135,10 @@ function addpos() {
             console.log("Result: " + result);
         });
         var sql = "INSERT INTO customers (name, address) VALUES ?";
-        var values = [[nm.value, age.value]];
+        var values = [[name, age]];
         con.query(sql, [values], function (err, result) {
             if (err) throw err;
             console.log("Number of records inserted: " + result.affectedRows);
         });
     });
+  addpos(nm.value, age.value);

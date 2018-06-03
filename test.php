@@ -1,7 +1,8 @@
-<?php
+<html>
+<body>
 
-$numb = 5;
+Welcome <?php echo $_POST["name"]; ?><br />
+Your age: <?php echo $_POST["age"]; ?>
 
-echo &numb;
-
-?>
+</body>
+</html>

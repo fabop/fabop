@@ -16,7 +16,10 @@
 
 <body>
     <script src="test.php" type="text/php"></script>
-    <?php include 'test.php'; ?>
+    <form action="test.php" method="post">
+    <p>Name: <input type="text" name="name" /></p>
+    <p>Age: <input type="text" name="age" /></p>
+    <p><input type="submit" name="submit" value="Submit" /></p>
     <h1 class="header">My Thoughts</h1>
     <p class="text1">Take a Look and Share Your Opinion</p>
     <div class="cont1">
